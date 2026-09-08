@@ -1,4 +1,4 @@
-import React, { use } from 'react';
+import React, { use, useState } from 'react';
 import type { Iplayer } from '../../Type/PlayerType';
 import AvailablePlayers from './AvailablePlayers';
 
@@ -10,6 +10,12 @@ const Players = ( {playersPromise}:PlayerProps ) => {
     console.log(playersPromise);
     const Players = use(playersPromise);
     console.log(Players, "Players");
+
+    const [buttonType, setButtonType] = useState("available")
+
+    const handleButton = (type: "available" | "selected") => {
+        setButtonType(type);
+    }
     
 
     return (
@@ -20,8 +26,12 @@ const Players = ( {playersPromise}:PlayerProps ) => {
                     Available Players
                 </h2>
                 <div>
-                    <button className='btn btn-success'>Available</button>
-                    <button className='btn'>Seleted</button>
+                    <button 
+                    onClick={() => handleButton("available")}
+                    className={`btn ${buttonType === "available" ? 'btn-success' : ""} rounded-r-none`}>Available</button>
+                    <button
+                    onClick={() => handleButton("selected")}
+                    className={`btn ${buttonType === "selected" ? 'btn-success' : ""} rounded-l-none`} >Seleted</button>
                 </div>
             </div>
             <AvailablePlayers Players={Players}></AvailablePlayers>
