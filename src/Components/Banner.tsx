@@ -1,9 +1,9 @@
 import React from 'react';
-
+import bpl_bnr from '../assets/bpl_bnr.png'
 const Banner = () => {
     return (
-        <div className='min-h-[400px] bg-pink-700 my-7 flex items-center justify-center '>
-            <h2 className='text-5xl text-shadow-amber-100'>HELLO</h2>
+        <div className='container mx-auto mb-5'>
+            <img src={bpl_bnr} alt="" />
         </div>
     );
 };

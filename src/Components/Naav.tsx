@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from '../assets/logo.png'
+import { FaDollarSign } from 'react-icons/fa';
 
-const Naav = () => {
+const Naav = ({coin}: {coin:number}) => {
     return (
         <div className=' bg-red-200 px-6 py-4'>
             <nav className=" container mx-auto flex items-center justify-between">
@@ -12,6 +13,10 @@ const Naav = () => {
                     <li>PLAYER</li>
                     <li>SCHEDULE</li>
                 </ul>
+
+                <h2 className='flex justify-between flex-row items-center gap-1 font-bold text-3xl text-black'>
+                    <FaDollarSign />
+                    {coin}</h2>
 
             </nav>
         </div>

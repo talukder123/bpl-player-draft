@@ -1,8 +1,39 @@
-import React from 'react';
+import React, { useState, type Dispatch, type SetStateAction } from 'react';
 import type { Iplayer } from '../../Type/PlayerType';
 import { FaUserCircle } from 'react-icons/fa';
+import { toast } from 'react-toastify';
 
-const PlayerCard = ({player}:{Player:Iplayer}) => {
+interface IplayerCard {
+    player: Iplayer
+    coin: number
+    setCoin: Dispatch<SetStateAction<number>>
+}
+
+const PlayerCard = ({ player, coin, setCoin }: IplayerCard) => {
+
+
+
+    const [isSelected, setIsSelected] = useState(false)
+
+    const handleSelectPlayer = () => {
+        setIsSelected(true)
+
+
+        const newCoin = coin - player.price
+
+
+
+        if (newCoin >= 0) {
+            setCoin(newCoin)
+            toast.success(`${player.name} Purchased Successfully`)
+        } else {
+            toast.error("Not enough coin to purchase")
+        }
+
+
+    }
+
+
     return (
         // start
         <div className="group w-full max-w-sm overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl mt-10">
@@ -81,7 +112,10 @@ const PlayerCard = ({player}:{Player:Iplayer}) => {
                         </p>
                     </div>
 
-                    <button className="btn btn-primary rounded-xl px-6 transition-all duration-200 hover:scale-105">
+                    <button
+                        onClick={() => handleSelectPlayer()}
+                        className={`btn btn-primary rounded-xl px-6 transition-all duration-200 hover:scale-105`}
+                        disabled={isSelected}>
                         Choose Player
                     </button>
                 </div>
