@@ -10,7 +10,7 @@
   },
   {
     "name": "Mustafizur Rahman",
-    "img": "/players/mustafizur.png",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsiW2Zro4VxcePu1pT14UMdDRZLbhhQbCfnjU88VlVkiLyPRJmpWm5kQA&s=10",
     "origin": "Bangladesh",
     "type": "Bowler",
     "bowlingStyle": "Left-arm fast-medium",
@@ -19,7 +19,7 @@
   },
   {
     "name": "Litton Das",
-    "img": "/players/litton.png",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiytvyQHMQlT-AG1DImwWPq82KsEuiv6IbF_y2H4R6oEptPsaL42qt5krP&s=10",
     "origin": "Bangladesh",
     "type": "Wicketkeeper-Batsman",
     "bowlingStyle": "Right-arm medium",
@@ -28,7 +28,7 @@
   },
   {
     "name": "Mehidy Hasan Miraz",
-    "img": "/players/mehidy.png",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBBieYdG2J1hB4noII17dFlY6sOBFA85iRuCdrlH8GkF9xoVT27l8s17I&s=10",
     "origin": "Bangladesh",
     "type": "All-Rounder",
     "bowlingStyle": "Right-arm off-break",
@@ -37,7 +37,7 @@
   },
   {
     "name": "Taskin Ahmed",
-    "img": "/players/taskin.png",
+    "img": "https://api.bdcrictime.com/players/360.png",
     "origin": "Bangladesh",
     "type": "Bowler",
     "bowlingStyle": "Right-arm fast",
@@ -46,7 +46,7 @@
   },
   {
     "name": "Babar Azam",
-    "img": "/players/babar.png",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2MQSjUTrpr7Vwy8MTqtOm_OM8_ujKfD0mNc0L-ydW_dIdGQOkTuRaNrmQ&s=10",
     "origin": "Pakistan",
     "type": "Batsman",
     "bowlingStyle": "Right-arm off-break",
@@ -55,7 +55,7 @@
   },
   {
     "name": "Virat Kohli",
-    "img": "/players/kohli.png",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbMMDFAFbbYG7muNalZ5kbiAn3-6Q_HFpaHzTIgMJNNHES-HKHo1OOTkkq&s=10",
     "origin": "India",
     "type": "Batsman",
     "bowlingStyle": "Right-arm medium",
@@ -64,7 +64,7 @@
   },
   {
     "name": "Jasprit Bumrah",
-    "img": "/players/bumrah.png",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzMw-sPWHzeJ-62fsvBlaWN9AbJf_nvyp2Vv-9jRiOksMWVhhNuEHw0BuD&s=10",
     "origin": "India",
     "type": "Bowler",
     "bowlingStyle": "Right-arm fast",
@@ -73,7 +73,7 @@
   },
   {
     "name": "Rohit Sharma",
-    "img": "/players/rohit.png",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMQltnTJB1osT0G-X7VGUp6f_10dCQB8mOXrc5Sjtu5w&s=10",
     "origin": "India",
     "type": "Batsman",
     "bowlingStyle": "Right-arm off-break",
@@ -82,7 +82,7 @@
   },
   {
     "name": "Rashid Khan",
-    "img": "/players/rashid.png",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5V0dkn7PZDEaYK2Nl6MLuhjIli0WAwGEABnXlzYR3RWn9qi12wvSltLI&s=10",
     "origin": "Afghanistan",
     "type": "All-Rounder",
     "bowlingStyle": "Right-arm leg-break",
@@ -91,7 +91,7 @@
   },
   {
     "name": "Pat Cummins",
-    "img": "/players/cummins.png",
+    "img": "https://api.bdcrictime.com/Profile/pat-cummins-10_10_2023.jpg",
     "origin": "Australia",
     "type": "Bowler",
     "bowlingStyle": "Right-arm fast",
@@ -100,7 +100,7 @@
   },
   {
     "name": "Glenn Maxwell",
-    "img": "/players/maxwell.png",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWfladwfAInV6x51lY_wOvolxsQch3aky0dc_oDDa9VFI_AhBElWMOGmg&s=10",
     "origin": "Australia",
     "type": "All-Rounder",
     "bowlingStyle": "Right-arm off-break",
@@ -109,7 +109,7 @@
   },
   {
     "name": "Jos Buttler",
-    "img": "/players/buttler.png",
+    "img": "https://api.bdcrictime.com/Profile/jos-buttler-13_10_2023.jpg",
     "origin": "England",
     "type": "Wicketkeeper-Batsman",
     "bowlingStyle": "Right-arm medium",
@@ -118,7 +118,7 @@
   },
   {
     "name": "Ben Stokes",
-    "img": "/players/stokes.png",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRALe5r3tFxzzz81GmsFagymvLJNoee1kdIVcVsU0C_pBupwGoCQm-0kFh_&s=10",
     "origin": "England",
     "type": "All-Rounder",
     "bowlingStyle": "Right-arm fast-medium",
@@ -127,7 +127,7 @@
   },
   {
     "name": "Travis Head",
-    "img": "/players/head.png",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn3f1yczhBF60THHk4Cwu1WfuanUdDTXRaQIsaBsxKpcAhi4cXrWVNQl4&s=10",
     "origin": "Australia",
     "type": "Batsman",
     "bowlingStyle": "Right-arm off-break",
@@ -136,7 +136,7 @@
   },
   {
     "name": "Kane Williamson",
-    "img": "/players/williamson.png",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ85eEiufdeMUkDkkpQXZSfo7tY2F7CwzMTF9T4OENg2DHlXpsI2FNiQNJ&s=10",
     "origin": "New Zealand",
     "type": "Batsman",
     "bowlingStyle": "Right-arm off-break",
@@ -145,7 +145,7 @@
   },
   {
     "name": "Shaheen Afridi",
-    "img": "/players/shaheen.png",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrPXB17FobrztOKdudiN4c9Pi3j3kup3EM_5JWId5egi1FajWmhXZt4v7K&s=10",
     "origin": "Pakistan",
     "type": "Bowler",
     "bowlingStyle": "Left-arm fast",
@@ -154,7 +154,7 @@
   },
   {
     "name": "Quinton de Kock",
-    "img": "/players/de-kock.png",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKdrtJQcnizQyA39A03KFa4eW0hHako4A8CQt-Rg7lbssCZC1yMB5VMvWy&s=10",
     "origin": "South Africa",
     "type": "Wicketkeeper-Batsman",
     "bowlingStyle": "Right-arm medium",
@@ -163,7 +163,7 @@
   },
   {
     "name": "Andre Russell",
-    "img": "/players/russell.png",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN08Pzo0SUx-06Gm4OF1OWYe5JsILN7sn7rr2kUot-wlPdg2cAlsq0Cem5&s=10",
     "origin": "West Indies",
     "type": "All-Rounder",
     "bowlingStyle": "Right-arm fast",
