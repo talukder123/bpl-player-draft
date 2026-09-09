@@ -7,21 +7,22 @@ interface IplayerCard {
     player: Iplayer
     coin: number
     setCoin: Dispatch<SetStateAction<number>>
+    selectedPlayers: Iplayer[]
+    setSelectedPlayers: Dispatch<SetStateAction<Iplayer[]>>
 }
 
-const PlayerCard = ({ player, coin, setCoin }: IplayerCard) => {
+const PlayerCard = ({ player, coin, setCoin, selectedPlayers, setSelectedPlayers }: IplayerCard) => {
 
 
 
     const [isSelected, setIsSelected] = useState(false)
 
+
+    // main functional button of the entire application rn!
     const handleSelectPlayer = () => {
+
         setIsSelected(true)
-
-
         const newCoin = coin - player.price
-
-
 
         if (newCoin >= 0) {
             setCoin(newCoin)
@@ -30,6 +31,7 @@ const PlayerCard = ({ player, coin, setCoin }: IplayerCard) => {
             toast.error("Not enough coin to purchase")
         }
 
+        setSelectedPlayers([...selectedPlayers, player])
 
     }
 

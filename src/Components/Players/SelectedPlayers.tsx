@@ -1,9 +1,22 @@
-import React from 'react';
+import React, { type Dispatch, type SetStateAction } from 'react';
+import type { Iplayer } from '../../Type/PlayerType';
 
-const SelectedPlayers = () => {
+interface IselectedPlayers {
+    selectedPlayers: Iplayer[]
+    setSelectedPlayers: Dispatch<SetStateAction<Iplayer[]>>
+}
+
+
+
+const SelectedPlayers = ({ selectedPlayers, setSelectedPlayers }: IselectedPlayers) => {
+    console.log(selectedPlayers);
     return (
         <div>
-            <h1 className='flex justify-center items-center'>No player has been selected yet</h1>
+            {
+                selectedPlayers.map((player : Iplayer) => {
+                    return player.name
+                })
+            }
         </div>
     );
 };
