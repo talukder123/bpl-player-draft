@@ -22,7 +22,7 @@ const SelectedPlayers = ({ selectedPlayers, setSelectedPlayers, coin, setCoin }:
     }
 
     return (
-        <div className='grid grid cols-1 gap-5 mt-20'>
+        <div className='grid grid-cols-1 gap-5 mt-20'>
             {
                 selectedPlayers.map((player: Iplayer, index: number) => {
                     return (

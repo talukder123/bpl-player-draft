@@ -1,4 +1,4 @@
-import React, { type Dispatch, type SetStateAction } from 'react';
+import { type Dispatch, type SetStateAction } from 'react';
 import type { Iplayer } from '../../Type/PlayerType';
 import { TbTrash } from 'react-icons/tb';
 
@@ -27,7 +27,7 @@ const SelectedPlayerCard = ({player, selectedPlayers, setSelectedPlayers, coin, 
     return (
         <div className='flex gap-4 justify-between items-center border border-gray-400 py-3 px-6 rounded-2xl'>
             <div className='flex gap-4'>
-                <img src={player.img} alt={player.name} className='h-[80px] w-[110px] rounded-2xl' />
+                <img src={player.img} alt={player.name} className='h-20 w-27.5 rounded-2xl' />
                 <div>
                     <h2 className='font-bold text-2xl'>{player.name}</h2>
                     <p className='font-semibold text-1xl text-gray-500'>{player.type}</p>
