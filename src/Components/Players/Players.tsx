@@ -28,7 +28,7 @@ const Players = ( {playersPromise, coin, setCoin}:PlayerProps) => {
         <div className='container mx-auto'>
             <div className='container mx-auto flex justify-between items-center gap-4'>
                 <h2 className='font-bold text-3xl'>
-                    {buttonType === "available" ? "Available Players" : "Selected Players" }
+                    {buttonType === "available" ? "Available Players" : "Selected Players " }
                     
                 </h2>
                 <div>
@@ -42,7 +42,7 @@ const Players = ( {playersPromise, coin, setCoin}:PlayerProps) => {
             </div>
             {buttonType === "available" ? 
             <AvailablePlayers Players={Players} coin={coin} setCoin={setCoin} selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers}></AvailablePlayers> :
-            <SelectedPlayers selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers}></SelectedPlayers>
+            <SelectedPlayers selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers} coin={coin} setCoin={setCoin}></SelectedPlayers>
             }
         </div>
     );

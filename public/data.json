@@ -1,173 +1,191 @@
 [
   {
     "name": "Shakib Al Hasan",
-    "img": "https://nclcricket.com/wp-content/uploads/2024/09/11-500x500.png",
+    "img": "https://i.pinimg.com/1200x/a1/34/8e/a1348ebc4c9a8501c4691136e55a0fed.jpg",
     "origin": "Bangladesh",
     "type": "All-Rounder",
     "bowlingStyle": "Left-arm orthodox",
     "battingStyle": "Left-handed",
-    "price": 12000000
+    "price": 120000
+  },
+  {
+    "name": "Litton Das",
+    "img": "https://i.pinimg.com/736x/7f/ff/72/7fff727b8f9e9cc68cb4899f35d339b2.jpg",
+    "origin": "Bangladesh",
+    "type": "Wicketkeeper-Batsman",
+    "bowlingStyle": "Right-arm medium",
+    "battingStyle": "Right-handed",
+    "price": 55000
   },
   {
     "name": "Mustafizur Rahman",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsiW2Zro4VxcePu1pT14UMdDRZLbhhQbCfnjU88VlVkiLyPRJmpWm5kQA&s=10",
+    "img": "https://i.pinimg.com/736x/c8/1e/42/c81e4263d636c0f42877d06f44f388f5.jpg",
     "origin": "Bangladesh",
     "type": "Bowler",
     "bowlingStyle": "Left-arm fast-medium",
     "battingStyle": "Left-handed",
-    "price": 8500000
-  },
-  {
-    "name": "Litton Das",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiytvyQHMQlT-AG1DImwWPq82KsEuiv6IbF_y2H4R6oEptPsaL42qt5krP&s=10",
-    "origin": "Bangladesh",
-    "type": "Wicketkeeper-Batsman",
-    "bowlingStyle": "Right-arm medium",
-    "battingStyle": "Right-handed",
-    "price": 8800000
+    "price": 80000
   },
   {
     "name": "Mehidy Hasan Miraz",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBBieYdG2J1hB4noII17dFlY6sOBFA85iRuCdrlH8GkF9xoVT27l8s17I&s=10",
+    "img": "https://i.pinimg.com/736x/a8/03/65/a80365da8e8c1d8b4c4bb11d2066ba02.jpg",
     "origin": "Bangladesh",
     "type": "All-Rounder",
     "bowlingStyle": "Right-arm off-break",
     "battingStyle": "Right-handed",
-    "price": 9000000
+    "price": 75000
   },
   {
     "name": "Taskin Ahmed",
-    "img": "https://api.bdcrictime.com/players/360.png",
+    "img": "https://i.pinimg.com/736x/c6/2a/e6/c62ae6d7d1a4af39879ee97f84473f25.jpg",
     "origin": "Bangladesh",
     "type": "Bowler",
     "bowlingStyle": "Right-arm fast",
     "battingStyle": "Right-handed",
-    "price": 7500000
+    "price": 70000
   },
   {
     "name": "Babar Azam",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2MQSjUTrpr7Vwy8MTqtOm_OM8_ujKfD0mNc0L-ydW_dIdGQOkTuRaNrmQ&s=10",
+    "img": "https://i.pinimg.com/736x/48/bb/c4/48bbc445301174f301ea9a1a0e6ba1bb.jpg",
     "origin": "Pakistan",
     "type": "Batsman",
     "bowlingStyle": "Right-arm off-break",
     "battingStyle": "Right-handed",
-    "price": 15000000
+    "price": 95000
   },
   {
     "name": "Virat Kohli",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbMMDFAFbbYG7muNalZ5kbiAn3-6Q_HFpaHzTIgMJNNHES-HKHo1OOTkkq&s=10",
+    "img": "https://i.pinimg.com/1200x/9f/fd/2e/9ffd2e3424d13b04b6dbeca09a3bc05a.jpg",
     "origin": "India",
     "type": "Batsman",
     "bowlingStyle": "Right-arm medium",
     "battingStyle": "Right-handed",
-    "price": 18000000
+    "price": 115000
   },
   {
     "name": "Jasprit Bumrah",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzMw-sPWHzeJ-62fsvBlaWN9AbJf_nvyp2Vv-9jRiOksMWVhhNuEHw0BuD&s=10",
+    "img": "https://i.pinimg.com/736x/26/bb/c3/26bbc30039ec91d981699d3083745e23.jpg",
     "origin": "India",
     "type": "Bowler",
     "bowlingStyle": "Right-arm fast",
     "battingStyle": "Right-handed",
-    "price": 17000000
+    "price": 120000
   },
   {
-    "name": "Rohit Sharma",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMQltnTJB1osT0G-X7VGUp6f_10dCQB8mOXrc5Sjtu5w&s=10",
-    "origin": "India",
-    "type": "Batsman",
-    "bowlingStyle": "Right-arm off-break",
-    "battingStyle": "Right-handed",
-    "price": 14500000
+    "name": "Mitchell Starc",
+    "img": "https://i.pinimg.com/736x/a4/10/b6/a410b6a346f134257c1536b841675219.jpg",
+    "origin": "Australia",
+    "type": "Bowler",
+    "bowlingStyle": "Left-arm fast",
+    "battingStyle": "Left-handed",
+    "price": 90000
   },
   {
     "name": "Rashid Khan",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5V0dkn7PZDEaYK2Nl6MLuhjIli0WAwGEABnXlzYR3RWn9qi12wvSltLI&s=10",
+    "img": "https://i.pinimg.com/736x/22/30/bf/2230bfa87c6862fb86cb891f1eb5d609.jpg",
     "origin": "Afghanistan",
     "type": "All-Rounder",
     "bowlingStyle": "Right-arm leg-break",
     "battingStyle": "Right-handed",
-    "price": 14000000
+    "price": 80000
   },
   {
     "name": "Pat Cummins",
-    "img": "https://api.bdcrictime.com/Profile/pat-cummins-10_10_2023.jpg",
+    "img": "https://i.pinimg.com/736x/04/d6/34/04d634dd11e00acfa6ee6ab0523e9c4e.jpg",
     "origin": "Australia",
     "type": "Bowler",
     "bowlingStyle": "Right-arm fast",
     "battingStyle": "Right-handed",
-    "price": 16000000
+    "price": 92000
   },
   {
     "name": "Glenn Maxwell",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWfladwfAInV6x51lY_wOvolxsQch3aky0dc_oDDa9VFI_AhBElWMOGmg&s=10",
+    "img": "https://i.pinimg.com/1200x/38/ce/83/38ce83b701de1690e7df483bef9d774b.jpg",
     "origin": "Australia",
     "type": "All-Rounder",
     "bowlingStyle": "Right-arm off-break",
     "battingStyle": "Right-handed",
-    "price": 13000000
+    "price": 100000
   },
   {
     "name": "Jos Buttler",
-    "img": "https://api.bdcrictime.com/Profile/jos-buttler-13_10_2023.jpg",
+    "img": "https://i.pinimg.com/1200x/d2/0b/22/d20b22231b44b8af71daab0fbc6436fe.jpg",
     "origin": "England",
     "type": "Wicketkeeper-Batsman",
     "bowlingStyle": "Right-arm medium",
     "battingStyle": "Right-handed",
-    "price": 15500000
+    "price": 78000
   },
   {
     "name": "Ben Stokes",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRALe5r3tFxzzz81GmsFagymvLJNoee1kdIVcVsU0C_pBupwGoCQm-0kFh_&s=10",
+    "img": "https://i.pinimg.com/1200x/d1/90/3b/d1903bb4fce55b295a69dd71b2828331.jpg",
     "origin": "England",
     "type": "All-Rounder",
     "bowlingStyle": "Right-arm fast-medium",
     "battingStyle": "Left-handed",
-    "price": 15000000
+    "price": 120000
   },
   {
     "name": "Travis Head",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn3f1yczhBF60THHk4Cwu1WfuanUdDTXRaQIsaBsxKpcAhi4cXrWVNQl4&s=10",
+    "img": "https://i.pinimg.com/736x/f4/f1/e0/f4f1e03ec2bdb1303b1544a2329c57cf.jpg",
     "origin": "Australia",
     "type": "Batsman",
     "bowlingStyle": "Right-arm off-break",
     "battingStyle": "Left-handed",
-    "price": 12500000
+    "price": 105000
   },
   {
     "name": "Kane Williamson",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ85eEiufdeMUkDkkpQXZSfo7tY2F7CwzMTF9T4OENg2DHlXpsI2FNiQNJ&s=10",
+    "img": "https://i.pinimg.com/736x/30/8f/5a/308f5ac7e4786fb54d95b0964b3b4faa.jpg",
     "origin": "New Zealand",
     "type": "Batsman",
     "bowlingStyle": "Right-arm off-break",
     "battingStyle": "Right-handed",
-    "price": 12000000
+    "price": 80000
   },
   {
     "name": "Shaheen Afridi",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrPXB17FobrztOKdudiN4c9Pi3j3kup3EM_5JWId5egi1FajWmhXZt4v7K&s=10",
+    "img": "https://i.pinimg.com/736x/a4/74/63/a47463fd81509bf1ae6c9790059942d9.jpg",
     "origin": "Pakistan",
     "type": "Bowler",
     "bowlingStyle": "Left-arm fast",
     "battingStyle": "Left-handed",
-    "price": 13500000
+    "price": 110000
   },
   {
     "name": "Quinton de Kock",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKdrtJQcnizQyA39A03KFa4eW0hHako4A8CQt-Rg7lbssCZC1yMB5VMvWy&s=10",
+    "img": "https://i.pinimg.com/1200x/52/be/13/52be133066993da81e4b248c93f55fc1.jpg",
     "origin": "South Africa",
     "type": "Wicketkeeper-Batsman",
     "bowlingStyle": "Right-arm medium",
     "battingStyle": "Left-handed",
-    "price": 11000000
+    "price": 74000
   },
   {
     "name": "Andre Russell",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN08Pzo0SUx-06Gm4OF1OWYe5JsILN7sn7rr2kUot-wlPdg2cAlsq0Cem5&s=10",
+    "img": "https://i.pinimg.com/736x/df/22/0d/df220d0e53e01af78dd8737931021499.jpg",
     "origin": "West Indies",
     "type": "All-Rounder",
     "bowlingStyle": "Right-arm fast",
     "battingStyle": "Right-handed",
-    "price": 14500000
-  }
+    "price": 95000
+  },
+  {
+    "name": "Jofra Archer",
+    "img": "https://i.pinimg.com/1200x/60/16/0c/60160c01d95f9fbe61fab963bff18bad.jpg",
+    "origin": "England",
+    "type": "Bowler",
+    "bowlingStyle": "Right-arm fast",
+    "battingStyle": "Right-handed",
+    "price": 85000
+  },
+  {
+  "name": "Tim David",
+  "img": "https://i.pinimg.com/1200x/48/d1/93/48d193d0828a88165f4bdb29880ccad2.jpg",
+  "origin": "Australia",
+  "type": "Batsman",
+  "bowlingStyle": "Right-arm off-break",
+  "battingStyle": "Right-handed",
+  "price": 70000
+}
 ]
