@@ -1,4 +1,3 @@
-import React from 'react';
 import bpl_bnr from '../assets/bpl_bnr.png'
 const Banner = () => {
     return (
