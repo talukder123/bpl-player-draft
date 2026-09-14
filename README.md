@@ -1,32 +1,38 @@
-# React + TypeScript + Vite
+# 🏏 BPL Player Draft
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+BPL Player Draft is a React-based web application that simulates a player selection and drafting experience inspired by the Bangladesh Premier League (BPL).
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Browse available BPL players
+* View player information and details
+* Select players for your team
+* Prevent duplicate player selections
+* Track selected players
+* Manage available and selected player lists
+* Responsive design for different screen sizes
+* Toast notifications for user actions
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* JavaScript
+* Tailwind CSS
+* DaisyUI
+* React Icons
+* React Toastify
+* Vite
 
-## Expanding the Oxlint configuration
+## 📌 Purpose
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+This project was built as a practice project to improve my React fundamentals, including **components, props, state management, event handling, conditional rendering, array methods, and data handling**.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+## 🔗 Live Demo
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+[[Live Demo](https://bpl-player-draft-fwctr2n3w-ast15.vercel.app/)](#)
+
+## 👨‍💻 Author
+
+**Abdus Salam Talukder**
+
+GitHub: [@talukder123](https://github.com/talukder123)
